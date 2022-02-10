@@ -1,0 +1,189 @@
+* {
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
+}
+
+/* General */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(to bottom right, #75b1ae, #ce9cba);
+}
+
+/* IDs */
+#main {
+}
+#nav {
+  background-color: #000000;
+}
+
+#work {
+  margin: 3% 0;
+}
+#contact {
+  margin: 3% 0;
+}
+
+/* Classes */
+.navigation {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+}
+
+.name a {
+  width: 50%;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Kanit";
+  font-weight: 100;
+  letter-spacing: 0.5ch;
+  text-decoration: none;
+}
+.name a:hover {
+  color: #ce9cba;
+  transition: 1s;
+}
+.refwork {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.refimage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+
+.refimg {
+  width: 80%;
+  margin: 5% 0 2% 0;
+  opacity: 0.5;
+}
+.refimg:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.contactimg {
+  background-image: url("../images/contact.jpg");
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+  margin: 3% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  background: #ffffff88;
+}
+h1 {
+  color: #000000;
+  font-size: 4.5rem;
+  font-weight: 200;
+  letter-spacing: 0.5ch;
+  text-align: center;
+}
+h2 {
+  margin: 2% 0;
+  text-align: end;
+  letter-spacing: 0.2ch;
+}
+.btn {
+  text-align: end;
+  padding: 2% 5%;
+  border: 1px solid #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: #ce9cba;
+  border: 1px solid #000000;
+  transition: 1s;
+}
+.ctabtn {
+  width: 100%;
+  margin: 2% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.namemain {
+  padding: 5% 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.menu {
+  width: 50%;
+  text-align: end;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  background-color: #fbfbfb78;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainsection {
+  margin: 3% 0;
+}
+.small50 {
+  width: 50%;
+}
+.image {
+  background-image: url("../images/homeoffice.jpg");
+  width: 100%;
+  height: 660px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menubtn {
+  padding: 2% 3%;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.menubtn:hover {
+  opacity: 0.8;
+  color: #ce9cba;
+  transition: 1s;
+}
+
+.form {
+}
+
+/* @media (min-width: 850px) {
+  .mainsection {
+    margin: 7% 7%;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+} */
